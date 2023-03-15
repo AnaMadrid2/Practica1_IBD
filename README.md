@@ -4,7 +4,7 @@ Primera practica de los alumnos de CD&amp;IA en la asignatura IBD
 Antes de empezar debemos tener la aplicación de Docker abierta
 
 1)Creación del Dockerfile
->-Para empezar con la practica primero creamos el documento Dockerfile el cual tendrá esta estructura:
+>-Para empezar con la practica primero creamos un documento llamado Dockerfile sin extension. Copiamos dentro del documento lo siguiente:
 
 FROM ontotext/graphdb:10.1.5
 
