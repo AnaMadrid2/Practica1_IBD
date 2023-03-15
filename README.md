@@ -26,7 +26,7 @@ docker build -t 'nombre_de_la_imagen' .
 ### 3- Lanzamiento del contenedor y del servicio
 >-Para lanzar el contenedor con la imagen que hemos creado anteriormente debemos poner lo siguiente en la terminal:
 ```
-docker run -p 7200:7200 'nombre_de_la_imagen' --name 'nombre_del_contenedor'
+docker run -p 7200:7200 --name 'nombre_del_contenedor' 'nombre_de_la_imagen' 
 ```
 >-Ahora abriremos una pestaña en nuestro navegador y ponemos:
 ````
