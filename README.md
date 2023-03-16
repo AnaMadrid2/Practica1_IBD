@@ -16,7 +16,7 @@ COPY *.ttl /root/graphdb-import/
 EXPOSE 7200
 ```
 >-En este Dockerfile estamos usando la imagen ontotext/graphdb en la versión 10.1.5, la segunda línea de código corresponde a la copia de los archivos .ttl, y la última línea dice que se exponga en el puerto 7200.
--En el mismo directorio en el que tenemos el Dockerfile debemos copiar los documentos .ttl descargados anteriormente.
+>-En el mismo directorio en el que tenemos el Dockerfile debemos copiar los documentos .ttl descargados anteriormente.
 
 ### 2- Creación de la imagen
 >-Primero abriremos la terminal, e iremos al directorio donde tenemos guardado el Dockerfile y los archivos .ttl
