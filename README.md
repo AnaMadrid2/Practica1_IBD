@@ -44,4 +44,16 @@ http://localhost:7200/
 ### 6- Comprobar que nuestra base de datos funciona
 >-En el menú de la izquierda seleccionamos SPARQL, aquí podremos poner una consulta SPARQL que verifique que nuestros datos están cargados en la base de datos.
 
-
+### 7- Crear nueva imagen
+>-Vamos a crear una nueva imagen a partir de la anterior con el repositorio que hemos creado en el paso 4, para ello escribimos en la terminal:
+````	docker ps -a
+````
+>Esto nos devolverá una lista con todos nuestros contenedores, tienes que buscar el contenedor que levanta el servidor que hemos creado y apuntarte los tres primeros valores del ‘CONTAINER ID’ debe ser algo parecido a esto : f7d
+>-Usando estos comando crearemos la nueva imagen:
+````
+	docker commit ‘tres_valores_del_ID_del_contenedor’  ‘usuario_de_docker_logeado/’nombre_nueva_imagen’
+````
+### 8- Subir la imagen a la plataforma dockerhub:
+````
+	docker push ‘usuario_de_docker_logeado/’nombre_nueva_imagen’
+````
