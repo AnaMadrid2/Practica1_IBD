@@ -5,3 +5,10 @@ select ?a where {
 	?a a esadm:Municipio .
 } limit 100 
 ```
+
+### Ejemplo 2 de consulta SPARQL
+```
+select ?a where { 
+	?a ?o ?p .
+} limit 1000
+```
