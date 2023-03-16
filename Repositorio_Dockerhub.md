@@ -1,3 +1,6 @@
+## Acceder al repositorio de la imagen:
+[https://hub.docker.com/repository/docker/anamadrid/img_practica/general](https://hub.docker.com/repository/docker/anamadrid/img_practica/general)
+
 ## Cómo usar nuestra imagen:
 
 Lo primero para obtener la imagen, ejecuta en su terminal:
