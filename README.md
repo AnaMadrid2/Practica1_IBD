@@ -52,9 +52,9 @@ docker ps -a
 >Esto nos devolverá una lista con todos nuestros contenedores, tienes que buscar el contenedor que levanta el servidor que hemos creado y apuntarte los tres primeros valores del ‘CONTAINER ID’ debe ser algo parecido a esto : f7d
 >-Usando estos comando crearemos la nueva imagen:
 ````
-	docker commit ‘tres_valores_del_ID_del_contenedor’  ‘usuario_de_docker_logeado/’nombre_nueva_imagen’
+docker commit ‘tres_valores_del_ID_del_contenedor’  ‘usuario_de_docker_logeado/’nombre_nueva_imagen’
 ````
 ### 8- Subir la imagen a la plataforma dockerhub:
 ````
-	docker push ‘usuario_de_docker_logeado/’nombre_nueva_imagen’
+docker push ‘usuario_de_docker_logeado/’nombre_nueva_imagen’
 ````
