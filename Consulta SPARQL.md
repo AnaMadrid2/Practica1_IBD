@@ -8,7 +8,10 @@ select ?a where {
 
 ### Ejemplo 2 de consulta SPARQL
 ```
-select ?a where { 
-	?a ?o ?p .
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+select * where { 
+	?s geosparql:asWKT ?o .
 } limit 1000
 ```
+
+
