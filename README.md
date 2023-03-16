@@ -20,7 +20,7 @@ EXPOSE 7200
 
 ### 2- Creación de la imagen
 >-Primero abriremos la terminal, e iremos al directorio donde tenemos guardado el Dockerfile y los archivos .ttl
--A continuación pondremos el siguiente comando:
+>-A continuación pondremos el siguiente comando:
 ```
 docker build -t 'nombre_de_la_imagen' .
 ```
@@ -38,11 +38,11 @@ http://localhost:7200/
 
 ### 4- Crear repositorio RDF desde la interfaz web
 >-Desde la interfaz web buscamos la opción de Create new repository, seleccionamos la opción GraphDB Repository.
--En el campo id pondremos Data, y le damos a create.
+>-En el campo id pondremos Data, y le damos a create.
 
 ### 5- Importar archivos .ttl
 >-En el menú de la izquierda seleccionamos import.
--Nos vamos a Server files y deberíamos ver todos los archivos .ttl , le daremos a importar a todos nuestros archivos.
+>-Nos vamos a Server files y deberíamos ver todos los archivos .ttl , le daremos a importar a todos nuestros archivos.
 
 ### 6- Comprobar que nuestra base de datos funciona
 >-En el menú de la izquierda seleccionamos SPARQL, aquí podremos poner una consulta SPARQL que verifique que nuestros datos están cargados en la base de datos.
