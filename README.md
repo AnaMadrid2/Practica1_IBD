@@ -46,7 +46,8 @@ http://localhost:7200/
 
 ### 7- Crear nueva imagen
 >-Vamos a crear una nueva imagen a partir de la anterior con el repositorio que hemos creado en el paso 4, para ello escribimos en la terminal:
-````	docker ps -a
+````	
+docker ps -a
 ````
 >Esto nos devolverá una lista con todos nuestros contenedores, tienes que buscar el contenedor que levanta el servidor que hemos creado y apuntarte los tres primeros valores del ‘CONTAINER ID’ debe ser algo parecido a esto : f7d
 >-Usando estos comando crearemos la nueva imagen:
